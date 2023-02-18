@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <title>BookStore | Ecommerce Website Design</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    </head>
+    <body>
+
+        <div class="header">
+            <div class="container">
+                <div class="navbar">
+                    <div class="logo">
+                        <a href="index.html"><img src="Project pics/logo.jpg" width="100px"></a>
+                    </div>
+                    <nav>
+                    <ul id="MenuItems">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="account.html">Account</a></li>
+                    </ul>
+                    </nav>
+                        <a href="cart.html"><img src="Project pics/cartheart.png" width="40px" height="40px"></a>
+                        <img src="Project pics/menu.png" class="menu-icon" onclick="menutoggle()">
+                </div>
+                <div class="row">
+                    <div class="col-2">
+                        <h1>Bright Future Awaits!</h1>
+                        <p>Where Cost Is Not The Limit,</p>
+                        <a href="" class="btn">Explore Now &#8594;</a>
+                    </div>
+                    <div class="col-2">
+                    <img src="Project pics/success.jpeg" width="300px">
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        
+       <!----- Featured Catagories----->
+       <div class="categories">
+            <div class="small-container">
+                <div class="row">
+                    <div class="col-3">
+                     <img src="Project pics/images.jpeg">
+                    </div>
+                    <div class="col-3">
+                        <img src="Project pics/bengali1.jpg">
+                    </div>
+                    <div class="col-3">
+                        <img src="Project pics/physics1.jpg">
+                     </div>
+                </div>
+            </div>
+       </div>
+       
+       <!-----Featured Products----->
+       <div class="small-container">
+            <h2 class="title">Featured Products</h2>
+            <div class="row">
+                <div class="col-4">
+                    <a href="Product-Details.html"><img src="Products/notes1.png"></a>
+                    <a href="Product-Details.html"><h4>Banking Notes by Dipika Saha</h4></a>
+                        <div class="Rating">
+                            <i class="fa fa-star checked"></i>
+                            <i class="fa fa-star checked"></i>
+                            <i class="fa fa-star checked"></i>
+                            <i class="fa fa-star checked"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                            <p>Rs 30</p>
+                        </div>
+                        <div class="col-4">
+                            <img src="Project pics/Physics2.jpg">
+                                <h4>Navbodh Physics Class 12</h4>
+                                <div class="Rating">
+                                    <i class="fa fa-star checked"></i>
+                                    <i class="fa fa-star checked"></i>
+                                    <i class="fa fa-star checked"></i>
+                                    <i class="fa fa-star-o"></i>
+                                    <i class="fa fa-star-o"></i>
+                                </div>
+                                    <p>Rs 85</p>
+                                </div>
+                                <div class="col-4">
+                                    <img src="Project pics/maths.jpeg">
+                                        <h4>RD Sharma Mathematics Class 10</h4>
+                                        <div class="Rating">
+                                            <i class="fa fa-star checked"></i>
+                                            <i class="fa fa-star checked"></i>
+                                            <i class="fa fa-star checked"></i>
+                                            <i class="fa fa-star-half-full"></i>
+                                            <i class="fa fa-star-o"></i>
+                                        </div>
+                                            <p>Rs 90</p>
+                                        </div>
+                                        <div class="col-4">
+                                            <img src="Project pics/bengali2.jpeg">
+                                                <h4>Sohoj Path Class 10</h4>
+                                                <div class="Rating">
+                                                    <i class="fa fa-star checked"></i>
+                                                    <i class="fa fa-star checked"></i>
+                                                    <i class="fa fa-star checked"></i>
+                                                    <i class="fa fa-star checked"></i>
+                                                    <i class="fa fa-star checked"></i>
+                                                </div>
+                                                    <p>Rs 20</p>
+                                                </div>
+                    </div>
+                
+                <h2 class="title">Latest Products</h2>
+
+                <div class="row">
+                    <div class="col-4">
+                        <img src="Project pics/chemical engineering.jpg">
+                            <h4>Chemical Engineering</h4>
+                            <div class="Rating">
+                                <i class="fa fa-star checked"></i>
+                                <i class="fa fa-star checked"></i>
+                                <i class="fa fa-star checked"></i>
+                                <i class="fa fa-star checked"></i>
+                                <i class="fa fa-star checked"></i>
+                            </div>
+                                <p>Rs 150</p>
+                            </div>
+                            <div class="col-4">
+                                <img src="Project pics/software engineering.png">
+                                    <h4>software Engineering</h4>
+                                    <div class="Rating">
+                                        <i class="fa fa-star checked"></i>
+                                        <i class="fa fa-star checked"></i>
+                                        <i class="fa fa-star checked"></i>
+                                        <i class="fa fa-star-half-full"></i>
+                                        <i class="fa fa-star-o"></i>
+                                    </div>
+                                        <p>Rs 200</p>
+                                    </div>
+                                    <div class="col-4">
+                                        <img src="Project pics/engineering mathametics.jpg">
+                                            <h4>Engineering Mathematics</h4>
+                                            <div class="Rating">
+                                                <i class="fa fa-star checked"></i>
+                                                <i class="fa fa-star checked"></i>
+                                                <i class="fa fa-star checked"></i>
+                                                <i class="fa fa-star-o"></i>
+                                                <i class="fa fa-star-o"></i>
+                                            </div>
+                                                <p>Rs 135</p>
+                                            </div>
+                </div>        
+                        </div>
+                    </div>
+                    <!-----offer----->
+                    <div class="Offers">
+                        <div class="small-container">
+                            <div class="row">
+                                <div class="col-2">
+                                  <img src="Project pics/QANotes.png" class="offer-img">  
+                                </div>
+                                <div class="col-2">
+                                    <p>Exclisively Available on BookStore</p>
+                                    <h1>Quantitative Aptitude Notes</h1>
+                                    <small>These notes have covered all the topics important for competitive exams including some tricks and tips for better understanding and time management.</small>
+                                    <a href="" class="btn">Buy Now &#8594;</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+<!----- testimonial----->
+<div class="testimonial">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-3">
+                <i class="fa fa-quote-left"></i>
+                <p>BookStore is a great website. It has helped who can't afford new books. There are study materials available for students of all age groups.</p>
+                
+                <div class="Rating">
+                <i class="fa fa-star checked"></i>
+                <i class="fa fa-star checked"></i>
+                <i class="fa fa-star checked"></i>
+                <i class="fa fa-star checked"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <img src="Project pics/user3.png" width="200px">
+            <h3>Laura Wellington</h3>
+        </div>
+        <div class="col-3">
+            <i class="fa fa-quote-left"></i>
+            <p>Materials available at much afordable rate. Condition of books are also good. </p>
+            
+            <div class="Rating">
+            <i class="fa fa-star checked"></i>
+            <i class="fa fa-star checked"></i>
+            <i class="fa fa-star checked"></i>
+            <i class="fa fa-star checked"></i>
+            <i class="fa fa-star-half-full"></i>
+        </div>
+        <img src="Project pics/user2.jpg" width="200px">
+        <h3>Will Manson</h3>
+    </div>
+    <div class="col-3">
+        <i class="fa fa-quote-left"></i>
+        <p>Wide range of options are available</p>
+        
+        <div class="Rating">
+        <i class="fa fa-star checked"></i>
+        <i class="fa fa-star checked"></i>
+        <i class="fa fa-star checked"></i>
+        <i class="fa fa-star-half-full"></i>
+        <i class="fa fa-star-o"></i>
+    </div>
+    <img src="Project pics/user4.png" width="200px">
+    <h3>Angela Warren</h3>
+</div>
+
+    </div>
+</div>
+            
+   </div>  
+   <!----- footer -----> 
+   <div class="footer">
+   <div class="container">
+    <div class="row">
+        <div class="footer-col-1">
+            <h3>Download Our App</h3>
+            <p>Download App for Android and ios mobile phone</p>
+       <div class="app-logo">
+        <img src="Project pics/footerGPlay.png">
+        <img src="Project pics/footer.png">
+       </div>
+        </div>
+        <div class="footer-col-2">
+          <img src="Project pics/logo.jpg">
+            
+        <p>Our Purpose Is To Make Make Education affordable for Everyone</p>
+    </div>
+    <div class="footer-col-3">
+            <h3>Usefull Links</h3>
+        <ul>
+            <li>Coupons</li>
+            <li>Blog Post</li>
+            <li>Return Policy</li>
+            <li> Join Affiliate</li>
+        </ul>
+    </div>
+    <div class="footer-col-4">
+        <h3>Follow Us</h3>
+    <ul>
+        <li>Facebook</li>
+        <li>Twitter</li>
+        <li>Instagram</li>
+        <li>Youtube</li>
+    </ul>
+</div>
+    </div>
+    <hr>
+    <p class="copyright">Copyright 2023 - MAKAUT</p>
+   </div>
+   </div>        
+       <!---------- js for toggle menu ---------->
+       <script>
+        var MenuItems = document.getElementById("MenuItems");
+        MenuItems.style.maxHeight = "0px";
+        function menutoggle(){
+            if(MenuItems.style.maxHeight == "0px")
+            {
+                MenuItems.style.maxHeight = "200px"; 
+            }
+            else
+            {
+                MenuItems.style.maxHeight = "0px"; 
+            }
+        }
+       </script>
+
+    </body>
+</html>
